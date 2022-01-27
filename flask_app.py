@@ -9,4 +9,8 @@ def hello_world():
 def hello():
     return 'Hello, Ankita!'
 
+@app.route('/singh')
+def singh():
+    return 'Hello, singh!'
+
 app.run(debug=True)
